@@ -30,7 +30,7 @@ h4 {
 
 .jumbotron {
     /*background-color: #0026ff;*/
-    background-image:url("../pictures/fachadanoche.png");
+    background-image:url("../pictures/JumboBG.png");
     background-repeat:no-repeat;
     background-position:left top;
     background-size:cover;
@@ -39,14 +39,14 @@ h4 {
     font-family: Montserrat, sans-serif;
 }
 
+.fb-page{
+    height: 700px;
+}
+
 #about{
     margin-top:0px;
     position:relative;
     padding-top:0px;
-}
-
-.fb-page{
-    height: 400px;
 }
 
 .bg-grey {
