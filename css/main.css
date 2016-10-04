@@ -30,13 +30,17 @@ h4 {
 
 .jumbotron {
     /*background-color: #0026ff;*/
-    background-image:url("../pictures/fachadanoche.png");
+    background-image:url("../pictures/JumboBG.png");
     background-repeat:no-repeat;
     background-position:left top;
     background-size:cover;
     color: #fff;
     padding:80px 25px;
     font-family: Montserrat, sans-serif;
+}
+
+.fb-page{
+    height: 700px;
 }
 
 #about{
