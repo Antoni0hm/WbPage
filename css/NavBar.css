@@ -12,7 +12,7 @@
 
 .navbar-nav li ul li a{
     color:#0026ff !important;
-    background-color: #aaa !important}
+    background-color: #fff !important}
 
     .navbar li a, .navbar .navbar-brand {
         color: #fff !important;
@@ -23,7 +23,8 @@
     background-color: #fff !important;
 }
 
-.navbar-default .navbar-toggle {
+.navbar-default .navbar-toggle  .icon-bar{
     border-color: transparent;
-    color: #6f8bcf !important;
+    background-color: white;
+    /*color: #ffffff;*/
 }

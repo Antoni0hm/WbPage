@@ -32,3 +32,17 @@ $(document).ready(function(){
         });
     });
 })
+
+$(function() {
+    
+    $(".totop").on("click", function( e ) {
+        
+        e.preventDefault();
+    
+        $("body, html").animate({ 
+            scrollTop: $( $(this).attr('href') ).offset().top 
+        }, 1000);
+        
+    });
+        
+});

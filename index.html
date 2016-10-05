@@ -13,15 +13,15 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/NavBar.css">
 </head>
-<body id="main" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="main" data-spy="scroll" data-target=".navbar" data-offset="500">
    
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar" style="color:#ffffff"></span>
+                    <span class="icon-bar" style="color:#ffffff"></span>
+                    <span class="icon-bar" style="color:#ffffff"></span>
                 </button>
                 <a class="navbar-brand" href="#main" id="mainLogo"><img src="pictures/ArcosalogoShrt.png" alt="Arcosa Logo"></a>
             </div>
@@ -29,7 +29,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#products">PRODUCTS</a></li>
-                    <li><a href="#sectors">SECTORS</a></li>
+                    <li><a href="#quality">QUALITY</a></li>                    
                     <li><a href="#locations">LOCATIONS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li class="dropdown">
@@ -47,12 +47,14 @@
     </nav>
 
     <div class="jumbotron text-center">
+        <!--img id="imgjumb" src="pictures/Arcosalogo.png" alt="Superior Wire Harness and EMS Manufacturing"-->
         <h1>O & S California Inc.</h1>
         <p>We specialize in Harness Manufacturing</p>
     </div>
 
     <!-- Container (About Section) -->
     <div id="about" class="container-fluid">
+        <div><br><br></div>
         <div class="row">
             <div class="col-sm-8">
                 <h2>About OSCA-ARCOSA</h2><br>
@@ -69,7 +71,7 @@
     <div class="container-fluid bg-grey">
         <div class="row">
             <div class="col-sm-4">
-                <img id="fach" src="pictures/CircleOSCA.png" alt="Oficina OSCA">
+                <img id="ono" src="pictures/Onambalogo.png" alt="Onamba Logo">
             </div>
             <div class="col-sm-8">
                 <h2>Our Values</h2><br>
@@ -92,41 +94,37 @@
 
     <!-- Container (Products Section) -->
     <div id="products" class="container-fluid text-center">
+        <div><br><br></div>
         <h2>Products</h2>
         <h4>What we offer</h4>
         <br>
         <div class="row slideanim">
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-off logo-small"></span>
-                <h4>Harness</h4>
+                <img src="pictures/ProductAuto.png" alt="Automotive Product" style="width:200px;height:200px;border:0;">
+                <h4><a>Automotive</a></h4>
                 <p>Lorem ipsum dolor sit amet..</p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-heart logo-small"></span>
-                <h4>Connections</h4>
+                <img src="pictures/ProductConsumer.png" alt="Consumer Electronic Product" style="width:200px;height:200px;border:0;">
+                <h4>Consumer Electronics</h4>
                 <p>Lorem ipsum dolor sit amet..</p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-lock logo-small"></span>
-                <h4>EMS</h4>
+                <img src="pictures/ProductIndustrial.png" alt="Industrial Electronics Product" style="width:200px;height:200px;border:0;">
+                <h4>Industrial Electronics</h4>
                 <p>Lorem ipsum dolor sit amet..</p>
             </div>
         </div>
         <br><br>
         <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-leaf logo-small"></span>
-                <h4>Switches</h4>
+            <div class="col-sm-6">
+                <img src="pictures/ProductAlternate.png" alt="Alternate Energy Product" style="width:200px;height:200px;border:0;">
+                <h4>Alternative Energy</h4>
                 <p>Lorem ipsum dolor sit amet..</p>
             </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-certificate logo-small"></span>
-                <h4>Cable Cut</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-wrench logo-small"></span>
-                <h4 style="color:#303030;">Your Product</h4>
+            <div class="col-sm-6">
+                <img src="pictures/ProductSub.png" alt="Sub-Assemblies Product" style="width:200px;height:200px;border:0;">
+                <h4>Sub-Assemblies</h4>
                 <p>Lorem ipsum dolor sit amet..</p>
             </div>
         </div>
@@ -144,36 +142,6 @@
                 </a><br />Go to Top
             </p>
         </div>
-    </div>
-
-    <!-- Container (Sector Section) -->
-    <div id="sectors" class="container-fluid text-center bg-grey">
-        <h2>Sectors</h2><br>
-        <h4>We work for different sectors of the industry</h4>
-        <div class="row text-center slideanim">
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="auto.jpg" alt="Automotive" width="400" height="300">
-                    <p><strong>Automotive</strong></p>
-                    <p>Yes, we built parts for Automotive sector.</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="home.jpg" alt="Home Appliance" width="400" height="300">
-                    <p><strong>Home Appliance</strong></p>
-                    <p>We also work for the Home industry market.</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="EMS.jpg" alt="EMS" width="400" height="300">
-                    <p><strong>EMS</strong></p>
-                    <p>Yes, we can also work as an EMS company.</p>
-                </div>
-            </div>
-        </div><br>
-
         <h2>Some of our customers:</h2>
         <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
             <!-- Indicators -->
@@ -210,6 +178,36 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </div>
+
+    <!-- Container (Quality Section) -->
+    <div id="quality" class="container-fluid text-center bg-grey">
+        <div><br><br></div>
+        <h2>Quality</h2><br>
+        <h4>We follow a continuous improvement philosophy aided by achieved ISO–9001:2008, ISO–14001:2004 and ISO/TS 16949:2002 certification standards.</h4>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="thumbnailx">
+                    <img src="pictures/ISO26459.png" alt="ISO/TS 16949 BSI Logo" width="200" height="200">
+                    <p><strong>ISO/TS 16949</strong></p>
+                    <p>TS 84440.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnailx">
+                    <img src="pictures/ISO14001.png" alt="ISO 14001 BSI Logo" width="200" height="200">
+                    <p><strong>ISO 14001</strong></p>
+                    <p>EMS 52523</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnailx">
+                    <img src="pictures/ISO26459.png" alt="ISO 9001 BSI Logo" width="200" height="200">
+                    <p><strong>ISO 9001</strong></p>
+                    <p>FS-26459</p>
+                </div>
+            </div>
+        </div><br>
         <div class="text-center">
             <br />
             <p>
@@ -222,6 +220,7 @@
 
     <!-- Container (Locations Section) -->
     <div id="locations" class="container-fluid">
+        <div><br><br></div>
         <div class="text-center">
             <h2>Locations</h2>
             <h4>We have facilitys near you</h4>
@@ -233,11 +232,7 @@
                         <h1>O & S California</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>20</strong> Lorem</p>
-                        <p><strong>15</strong> Ipsum</p>
-                        <p><strong>5</strong> Dolor</p>
-                        <p><strong>2</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+                        <img id="osca" class="loc" src="pictures/oscaoffice.png" alt="Osca office">
                     </div>
                     <div class="panel-footer">
                         <h3>Sales Office</h3>
@@ -252,16 +247,12 @@
                         <h1>ARCOSA</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>50</strong> Lorem</p>
-                        <p><strong>25</strong> Ipsum</p>
-                        <p><strong>10</strong> Dolor</p>
-                        <p><strong>5</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+                        <img id="arcosa" class="loc" src="pictures/fachadanoche.png" alt="Arcosa Facility">
                     </div>
                     <div class="panel-footer">
-                        <h3>Manufacturing facility</h3>
+                        <h3>Manufacturing Facility</h3>
                         <h4>Tijuana, Baja California, MX</h4>
-                        <button class="btn btn-default">See it on Map</button>>
+                        <button class="btn btn-default">See it on Map</button>
                     </div>
                 </div>
             </div>
@@ -271,11 +262,7 @@
                         <h1>ARCOSA Bajio</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>100</strong> Lorem</p>
-                        <p><strong>50</strong> Ipsum</p>
-                        <p><strong>25</strong> Dolor</p>
-                        <p><strong>10</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+                        <img id="bajio" class="loc" src="pictures/BAJIO.png" alt="Arcosa Bajio Facility">
                     </div>
                     <div class="panel-footer">
                         <h3>Manufacturing Facility (NEW!)</h3>
@@ -297,27 +284,62 @@
 
     <!-- Container (Contact Section) -->
     <div id="contact" class="container-fluid bg-grey">
+        <div><br><br></div>
         <h2 class="text-center">CONTACT</h2>
         <div class="row">
-            <div class="col-sm-5">
+            <div class="col-sm-3">
                 <p>Contact us and we'll get back to you within 24 hours.</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> San Diego, CA, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +1 (619) 661-2010</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:sales@osca-arcosa.com">sales@osca-arcosa.com</a></p>
             </div>
-            <div class="col-sm-7 slideanim">
+            <div class="col-sm-9 slideanim">
+                <p>* Fields are required.</p>
                 <div class="row">
                     <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        <input class="form-control contform" id="name" name="name" placeholder="* Name" type="text" required>                        
                     </div>
                     <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        <input class="form-control contform" id="email" name="email" placeholder="* Email" type="email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <input class="form-control contform" id="company" name="company" placeholder="* Company" type="text" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <input class="form-control contform" id="country" name="country" placeholder="Country" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <input class="form-control contform" id="address" name="address" placeholder="Address" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <input class="form-control contform" id="city" name="city" placeholder="City" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control contform" id="state" name="state" placeholder="State" type="text">
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control contform" id="zip" name="zip" placeholder="Zip Code" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <input class="form-control contform" id="phone" name="phone" placeholder="* Phone Number" type="text" required>
                     </div>
                 </div>
                 <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
                 <div class="row">
                     <div class="col-sm-12 form-group">
-                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                        <button class="btn btn-primary btn-lg btn-block pull-right" type="submit">Send</button>
                     </div>
                 </div>
             </div>
@@ -336,45 +358,13 @@
         <p>NEWS</p>
         <a class="twitter-timeline" href="https://twitter.com/Osca_Arcosa">Tweets by Osca_Arcosa</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
-
-
-    <div id="googleMap" style="height:400px;width:100%;"></div>
-
-    <!-- Add Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-        var myCenter = new google.maps.LatLng(32.5549395, -116.9315544);
-
-        function initialize() {
-            var mapProp = {
-                center: myCenter,
-                zoom: 14,
-                scrollwheel: false,
-                draggable: false,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-
-            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-
-            var marker = new google.maps.Marker({
-                position: myCenter,
-            });
-
-            marker.setMap(map);
-        }
-
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-
-    <div class="text-center">
-        <br />
-        <p>
-            <a href="#main" title="To Top" class="totop">
-                <span class="glyphicon glyphicon-chevron-up"></span>
-            </a><br />Go to Top
-        </p>
+    <br />
+    <div class="container-fluid text-center">
+        <a href="#main" title="To Top" class="totop">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Go to Top</p>
     </div>
-
     <footer id="foot" class="container-fluid text-center">
         <p>
             Telephone (US): <a>(619)-661-1800</a><br />

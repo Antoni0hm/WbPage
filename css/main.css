@@ -5,11 +5,20 @@
 }
 
 #mainLogo{
-    position:absolute;
     top:0px;
     left:0px;
     margin-top:0px;
     padding-top: 5px;
+}
+
+#ono{
+    height: 300px;
+    width: 500px;
+}
+
+.loc{
+    height: 300px;
+    width: 100%;
 }
 
 h2 {
@@ -26,6 +35,10 @@ h4 {
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+.thumbnailx{
+    font-size: 20px;
 }
 
 .jumbotron {
