@@ -224,3 +224,9 @@ footer a{
         font-size: 150px;
     }
 }
+
+@media (min-width: 600px){
+    .circulo{
+        max-width: 100%;
+    }
+}
