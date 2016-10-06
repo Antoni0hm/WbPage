@@ -227,6 +227,6 @@ footer a{
 
 @media (min-width: 600px){
     .circulo{
-        max-width: 100%;
+        max-width: 50%;
     }
 }
