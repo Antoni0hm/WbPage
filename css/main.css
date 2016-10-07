@@ -101,11 +101,15 @@ h4 {
     border-radius: 0;
 }
 
-    .thumbnail img {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 10px;
-    }
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.prod{
+    transition: box-shadow 0.5s;
+}
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
