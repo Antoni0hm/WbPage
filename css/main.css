@@ -108,6 +108,8 @@ h4 {
 }
 
 .prod{
+    border: 1px solid #064ea2;
+    border-radius: 0 !important;
     transition: box-shadow 0.5s;
 }
 
