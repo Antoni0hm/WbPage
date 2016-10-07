@@ -12,8 +12,10 @@
 }
 
 #ono{
-    height: 300px;
-    width: 500px;
+    /*height: 300px;
+    width: 500px;*/
+    height: 50%;
+    width: 50%;
 }
 
 .loc{
