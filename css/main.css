@@ -21,6 +21,19 @@
     width: 100%;
 }
 
+.loclogo{
+    max-height: 100px;
+    min-height: 100px;
+    width: 100%;
+}
+
+.nor{
+    max-height: 80px;
+    min-height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 h2 {
     font-size: 24px;
     text-transform: uppercase;
