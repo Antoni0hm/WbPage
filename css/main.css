@@ -107,11 +107,11 @@ h4 {
     margin-bottom: 10px;
 }
 
-/*.prod{
+.prod{
     border: 1px solid #064ea2;
-    border-radius:45 !important;
+    border-radius: 90 !important;
     transition: box-shadow 10.5s;
-}*/
+}
 
 prod:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
