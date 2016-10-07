@@ -68,12 +68,12 @@ h4 {
 }
 
 .logo-small {
-    color: #0026ff;
+    color: #064ea2;
     font-size: 50px;
 }
 
 .logo {
-    color: #0026ff;
+    color: #064ea2;
     font-size: 200px;
 }
 
@@ -95,11 +95,11 @@ h4 {
 }
 
 .carousel-indicators li {
-    border-color: #0026ff;
+    border-color: #064ea2;
 }
 
     .carousel-indicators li.active {
-        background-color: #0026ff;
+        background-color: #064ea2;
     }
 
 .item h4 {
@@ -115,7 +115,7 @@ h4 {
 }
 
 .panel {
-    border: 1px solid #0026ff;
+    border: 1px solid #064ea2;
     border-radius: 0 !important;
     transition: box-shadow 0.5s;
 }
@@ -125,14 +125,14 @@ h4 {
     }
 
 .panel-footer .btn:hover {
-    border: 1px solid #0026ff;
+    border: 1px solid #064ea2;
     background-color: #fff !important;
-    color: #0026ff;
+    color: #064ea2;
 }
 
 .panel-heading {
     color: #fff !important;
-    background-color: #0026ff !important;
+    background-color: #064ea2 !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -156,7 +156,7 @@ h4 {
 
     .panel-footer .btn {
         margin: 15px 0;
-        background-color: #0026ff;
+        background-color: #064ea2;
         color: #fff;
     }
 
