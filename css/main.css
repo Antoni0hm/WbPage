@@ -12,10 +12,8 @@
 }
 
 #ono{
-    /*height: 300px;
-    width: 500px;*/
-    height: 30%;
-    width: 50%;
+    height: 300px;
+    width: 500px;
 }
 
 .loc{
@@ -230,6 +228,6 @@ footer a{
 @media (max-width: 600px){
     .circulo{
         max-width: 50%;
-        max-height: 50%;      
+        max-height: 30%;      
     }
 }
