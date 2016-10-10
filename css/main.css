@@ -107,13 +107,13 @@ h4 {
     margin-bottom: 10px;
 }
 
-/* Zoom In #1 */
 figure img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
+
 figure:hover img {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
