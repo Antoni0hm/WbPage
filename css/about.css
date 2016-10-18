@@ -1,0 +1,14 @@
+div.img{
+    float:left;
+    margin:15px;
+}
+
+.img img{
+    width:200px;
+    height: 200px;
+}
+
+img img.lrg{
+    width: 250px;
+    height: 170px;
+}

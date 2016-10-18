@@ -32,7 +32,7 @@ $(document).ready(function(){
         });
     });
 })
-
+ 
 $(function() {
     
     $(".totop").on("click", function( e ) {
@@ -40,7 +40,7 @@ $(function() {
         e.preventDefault();
     
         $("body, html").animate({ 
-            scrollTop: $( $(this).attr('href') ).offset().top 
+            scrollTop: $( $(this).attr('href') ).offset().top-50
         }, 1000);
         
     });
