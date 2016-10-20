@@ -266,3 +266,13 @@ footer a{
         max-height: 50%;      
     }
 }
+
+@media (max-width: 600px;){
+    .prof{
+        width:100%;
+    }
+
+    .prof table{
+        width:80%;
+    }
+}

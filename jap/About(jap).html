@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OSCA-ARCOSA [Home]</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/behavior.js"></script>
+    <script src="scripts/SideBar.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/SideBar.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {packages:["orgchart"]});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        data.addColumn('string', 'ToolTip');
+
+        // For each orgchart box, provide the name, manager, and tooltip to show.
+        data.addRows([
+            ['President','', 'The President'],
+            ['Vice-President','President', 'VP'],
+            ['Accounting & R.H. Manager', 'Vice-President', ''],
+            ['R.H. Supervisor', 'Accounting & R.H. Manager', ''],
+            ['Account Assistant', 'Accounting & R.H. Manager', ''],
+            ['Director of Sales & Operations', 'Vice-President', ''],
+            ['Sales Mgr.', 'Director of Sales & Operations', ''],
+            ['Sales Assist.', 'Sales Mgr.', ''],
+            ['Sales Rep.', 'Sales Assist.', ''],
+            ['Customer Service', 'Sales Rep.', ''],
+            ['Imp./Exp. Assist. Mgr.', 'Director of Sales & Operations', ''],
+            ['Imp./Exp. Assist.', 'Imp./Exp. Assist. Mgr.', ''],
+            ['Purchasing Mgr.', 'Director of Sales & Operations', ''],
+            ['Purchasing Assistant','Purchasing Mgr.', ''],
+            ['Account Assist. Mgr.', 'Director of Sales & Operations', ''],
+            ['Account Assitant', 'Account Assist. Mgr.', ''],
+            ['I.T. Mgr.', 'Director of Sales & Operations', ''],
+            ['Factory Mgr.', 'Director of Sales & Operations', ''],
+            ['QA Superint.', 'Factory Mgr.', ''],
+            ['Quality Coord.', 'QA Superint.', ''],
+            ['Engineering Superint.', 'Factory Mgr.', ''],
+            ['Engineer Assist.', 'Engineering Superint.', ''],
+            ['Process Engineer.', 'Engineering Superint.', ''],
+            ['TS-16919/ISO-14001 Coord', 'Factory Mgr.', ''],
+            ['Maintenance Mgr.', 'Director of Sales & Operations', ''],
+            ['Maint. Superv.', 'Maintenance Mgr.', ''],
+            ['Planning Superv.', 'Director of Sales & Operations', ''],
+            ['H.R. Superint.', 'Director of Sales & Operations', ''],
+            ['R.H. Superv.', 'H.R. Superint.', '']
+        ]);
+
+        // Create the chart.
+        var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+        // Draw the chart, setting the allowHtml option to true for the tooltips.
+        chart.draw(data, {allowHtml:true});
+      }
+   </script>
+
+</head>
+<body id="main" data-spy="scroll" data-target="#leftcol" data-offset="60">
+
+       <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar" style="color:#ffffff"></span>
+                    <span class="icon-bar" style="color:#ffffff"></span>
+                    <span class="icon-bar" style="color:#ffffff"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" id="mainLogo"><img src="pictures/ArcosalogoShrt.png" alt="Arcosa Logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="quality.html">QUALITY</a></li>                    
+                    <li><a href="locations.html">LOCATIONS</a></li>
+                    <li><a href="index.html">CONTACT</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            LANGUAGE
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Home(esp).html">Español Latino</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div><br><br></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="leftCol" class="col-sm-2 hidden-xs hidden-xm">
+                <ul class="nav nav-pills nav-stacked" id="sidebar">
+                    <li><a href="#about" class="totop">About</a></li>
+                    <li><a href="#corp" class="totop">Corporate Profile</a></li>
+                    <li><a href="#org" class="totop">Organization Chart</a></li>
+                    <li><a href="#cust" class="totop">Customers</a></li>
+                    <li><a href="#sup" class="totop">Suppliers</a></li>
+                </ul>
+            </div>
+            <div id="mainCol" class="col-sm-10">
+                <div id="about">
+                    <h3>About</h3>
+                    <p>Established in October 1986, OSCA-ARCOSA is a leader in the supply of electrical wire assemblies, supplying to the Consumer Electronics, Automotive, Industrial Electronics, Photovoltaic, and Appliance Industries.</p>
+                    <p>We are an integrated team of sales, engineering, production, and quality assurance experts, specializing in the assembly of wire harness assemblies. We are dedicated to serving our customers’ requirements at all levels. We work with the customer through the initial stages of      design to the completion of the product, until their delivery.</p>
+                    <p>O&S California, Inc. (OSCA) is the corporate and sales office located in San Diego, California USA. Created from the joint venture between two of the biggest wire manufactures of the world: Onamba Co. Ltd. (Share 70%). and Sumitomo Electric Ind. Ltd. (Share 30%).</p>
+                    <p>Arneses y Conexiones, SA. de CV. (ARCOSA), our manufacturing facility, located in Tijuana, Baja California, Mexico. ARCOSA employs over 1071 people in the 57,000 Sq. Feet (5,295 Sq. Meters) of manufacturing space and 121,000 Sq. Feet (11,250 Sq. Meters) of land.</p>
+                </div>
+                <div><br><br></div>
+                <div id="corp">
+                    <h3>Corporate Profile</h3>
+                    <table style="width:400px">
+                        <tr>
+                            <th colspan="2">OSCA-ARCOSA Profile</th>
+                        </tr>
+                        <tr>
+                            <td>President:</td>
+                            <td>Mr. Koichi Nakamura</td>
+                        </tr>
+                        <tr>
+                            <td>Vice-President:</td>
+                            <td>Mr. Jose Luis Furlong</td>
+                        </tr>
+                        <tr>
+                            <td>Shared Capital:</td>
+                            <td>$2.5 Million</td>
+                        </tr>
+                        <tr>
+                            <td>Established:</td>
+                            <td>October, 1986</td>
+                        </tr>
+                        <tr>
+                            <th>OSCA's Share Holders</th>
+                        </tr>
+                        <tr>
+                            <td>70% Onamba Co. Ltd.</td>
+                        </tr>
+                        <tr>
+                            <td>30% Sumitomo Electric Ind. Ltd.</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Total Employees (As December 2015)</th>
+                        </tr>
+                        <tr>
+                            <td>OSCA</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>ARCOSA</td>
+                            <td>1071</td>
+                        </tr>
+                        <tr>
+                            <td>BAJIO</td>
+                            <td>70</td>
+                        </tr>
+                    </table>
+                </div>
+                <div><br><br></div>
+                <div id="org">
+                    <h3>Organization Chart</h3>
+                    <div class="container-fluid text-center">
+                        <div id="chart_div"></div>
+                        <!--a href="pictures/Organigrama.png"><img src="pictures/Organigrama.png" alt="Arcosa Logo" style="width: 50%;"></a-->
+                    </div>
+                </div>
+                <div><br><br></div>
+                
+                <div id="cust" class="container-fluid hidden-xs hidden-sm">
+                    <h3>Customers</h3>
+                    <br>
+                    <div>
+                        <img src="pictures/Autoliv.png" alt="Autoliv Logo" style="width:200px;height:200px;border:0;float:left;margin-right:20px;margin-bottom:20px;">
+                    </div>
+                    <div>
+                        <img src="pictures/Takata.jpg" alt="Takata Logo" style="width:300px;height:200px;border:0;float:left;margin-right:20px;margin-bottom:20px;">
+                    </div>
+                    <div>
+                        <img src="pictures/Philips.png" alt="Philips Logo" style="width:200px;height:200px;border:0;float:left;margin-right:20px;margin-bottom:20px;">
+                    </div>
+                    <div>
+                        <img src="pictures/BroanNutone.jpg" alt="BroanNutone Logo" style="width:200px;height:200px;border:0;float:left;margin-right:20px;margin-bottom:20px;">
+                    </div>
+                </div>
+                <div id="myCarousel" class="carousel slide text-center visible-xs visible-sm" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <h4><img src="pictures/Autoliv.png" alt="Autoliv Logo" style="width:200px;height:200px;border:0;"><br><span style="font-style:normal;">Autoliv</span></h4>
+                        </div>
+                        <div class="item">
+                            <h4><img src="pictures/Takata.jpg" alt="Takata Logo" style="width:300px;height:200px;border:0;"><br><span style="font-style:normal;">Takata</span></h4>
+                        </div>
+                        <div class="item">
+                            <h4><img src="pictures/Philips.png" alt="Philips Logo" style="width:200px;height:200px;border:0;"><br><span style="font-style:normal;">Philips</span></h4>
+                        </div>
+                        <div class="item">
+                            <h4><img src="pictures/BroanNutone.jpg" alt="BroanNutone Logo" style="width:200px;height:200px;border:0;"><br><span style="font-style:normal">Broan NuTone</span></h4>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div><br><br></div>
+                
+                <div id="sup">
+                    <h3>Suppliers</h3>
+                    <div id="supp" class="container-fluid hidden-xs hidden-sm">
+                        <br>
+                        <div class="img">
+                            <img src="pictures/TE.jpg" alt="TE Logo">
+                        </div>
+                        <div class="img">
+                            <img src="pictures/TTI.jpg" alt="TTI Logo">
+                        </div>
+                        <div class="img">
+                            <img src="pictures/JST.png" alt="JST Logo" >
+                        </div>
+                        <div class="img">
+                            <img class="lrg" src="pictures/Sumitomo.jpg" alt="Sumitomo Logo">
+                        </div>
+                        <div class="img">
+                            <img class="lrg" src="pictures/Leoni.png" alt="Leoni Logo" >
+                        </div>
+                        <div class="img">
+                            <img class="lrg" src="pictures/Southwire.png" alt="Southwire Logo">
+                        </div>
+                    </div>
+                    <div id="myCarousel2" class="carousel slide text-center visible-xs visible-sm" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel2" data-slide-to="2"></li>
+                            <li data-target="#myCarousel2" data-slide-to="3"></li>
+                            <li data-target="#myCarousel2" data-slide-to="4"></li>
+                            <li data-target="#myCarousel2" data-slide-to="5"></li>
+                            <li data-target="#myCarousel2" data-slide-to="6"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <h4><img src="pictures/TE.jpg" alt="TE Logo" style="width:200px;height:200px;border:0;"></h4>
+                            </div>
+                            <div class="item">
+                                <h4><img src="pictures/TTI.jpg" alt="TTI Logo" style="width:200px;height:200px;border:0;"></h4>
+                            </div>
+                            <div class="item">
+                                <h4><img src="pictures/JST.png" alt="JST Logo" style="width:200px;height:200px;border:0;"></h4>
+                            </div>
+                            <div class="item">
+                                <h4><img class="lrg" src="pictures/Sumitomo.jpg" alt="Sumitomo Logo" style="width:200px;height:150px;border:0;"></h4>
+                            </div>
+                            <div class="item">
+                                <h4><img class="lrg" src="pictures/Leoni.png" alt="Leoni Logo" style="width:200px;height:150px;border:0;"></h4>
+                            </div>
+                            <div class="item">
+                                <h4><img class="lrg" src="pictures/Southwire.png" alt="Southwire Logo" style="width:200px;height:150px;border:0;"></h4>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="foot" class="container-fluid text-center">
+        <p>
+            Telephone (US): <a>(619)-661-1800</a><br />
+            Telephone (MX): <a>(664)-623-3700</a><br />
+            9731 Siempre Viva Rd. STE E, San Diego CA. 92154-7217<br />
+            E-mail: <a href="mailto: sales@osca-arcosa.com">sales@osca-arcosa.com</a>
+        </p>
+    </footer>
+</body>
+</html>

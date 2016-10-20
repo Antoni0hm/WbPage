@@ -4,17 +4,17 @@
     <title>OSCA-ARCOSA [Home]</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <script src="scripts/behavior.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="scripts/behavior.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/NavBar.css">
 </head>
-<body id="main" class="scroll-area" data-spy="scroll" data-target=".navbar" data-offset="500">
+<body id="main" data-spy="scroll" data-target=".navbar" data-offset="500">
    
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -39,7 +39,7 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="esp/index(esp).html">Español</a></li>
+                            <li><a href="Home(esp).html">Español</a></li>
                             <li><a href="index.html">日本の?</a></li>
                         </ul>
                     </li>
@@ -177,8 +177,7 @@
         <div class="row slideanim">
             <div class="col-sm-12">
                 <h4>Contact Us</h4>
-                <!--button id="Contact" type="button" class="btn btn-default totop">Send Email</button-->
-                <br><a href="#contact" class="btn btn-default totop">Send Email</a>
+                <button id="Contact" type="button" class="btn btn-default" onClick="document.getElementById('contact').scrollIntoView();">Send Email</button>
             </div>
         </div>
         <div class="text-center">
@@ -249,7 +248,7 @@
                     <div class="panel-footer">
                         <h3>Sales Office</h3>
                         <h4>San Diego, California, US</h4>
-                        <br><a href="eng/Locations.html#OSCAF" class="btn btn-default">See it on Map</a>
+                        <button class="btn btn-default">See it on Map</button>
                     </div>
                 </div>
             </div>
@@ -265,7 +264,7 @@
                     <div class="panel-footer">
                         <h3>Manufacturing Facility</h3>
                         <h4>Tijuana, Baja California, MX</h4>
-                        <br><a href="eng/Locations.html#ARCOSAF" class="btn btn-default">See it on Map</a>
+                        <button class="btn btn-default">See it on Map</button>
                     </div>
                 </div>
             </div>
@@ -281,12 +280,11 @@
                     <div class="panel-footer">
                         <h3>Manufacturing Facility (NEW!)</h3>
                         <h4>Valle de Santiago, Guanajuato, MX</h4>
-                        <br><a href="eng/Locations.html#ARCOSABF" class="btn btn-default">See it on Map</a>
+                        <button class="btn btn-default">See it on Map</button>
                     </div>
                 </div>
             </div>
         </div>
-        <br><a href="eng/Locations.html" class="btn btn-primary btn-lg btn-block">See ONAMBA Global Network</a>
         <div class="text-center">
             <br />
             <p>

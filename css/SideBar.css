@@ -1,8 +1,13 @@
 ﻿#sidebar {
+    padding-top:150px;
+    margin-top:150px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    color:#0066cc;
+    font-weight:bold;
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    border-color:#000000;
 }
