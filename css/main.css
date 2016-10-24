@@ -11,13 +11,18 @@
     padding-top: 5px;
 }
 
+.circulo{
+    height: 50%;
+    width: 50%;
+}
+
 #ono{
     /*height: 300px;
     width: 500px;*/
     max-width: 100%;
     max-height: 50%;
     height:30%;
-    width:100%;   
+    width: 70%;   
 }
 
 .loc{
@@ -68,8 +73,8 @@ h4 {
     background-position:left top;
     background-size:cover;
     color: #fff;
-    padding-top:30px;
-    padding-bottom:8px;
+    padding-top:50px;
+    padding-bottom:0px;
     font-family: Montserrat, sans-serif;
 }
 
@@ -86,6 +91,16 @@ h4 {
 
 .bg-grey {
     background-color: #f6f6f6;
+}
+
+.bg-blue {
+    background-color: #1149a3;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.fnt-bold{
+    font-weight: bold;
 }
 
 .logo-small {
