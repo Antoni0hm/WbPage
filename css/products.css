@@ -1,0 +1,34 @@
+.autobg{
+    background-image: url(../pictures/connector.jpg);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.celebg{
+    background-image: url(../pictures/CELEC.jpg);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.ielebg{
+    background-image: url(../pictures/ProductIndustrialO.jpg);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.aenebg{
+    background-image: url(../pictures/PVU.jpg);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.assybg{
+    background-image: url(../pictures/ProductSubO.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}

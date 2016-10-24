@@ -15,7 +15,9 @@
     /*height: 300px;
     width: 500px;*/
     max-width: 100%;
-    max-height: 50%;   
+    max-height: 50%;
+    height:30%;
+    width:100%;   
 }
 
 .loc{
@@ -38,7 +40,7 @@
     min-height: 70px;
     max-width: 60%;
 }
-
+/*
 h2 {
     font-size: 24px;
     text-transform: uppercase;
@@ -53,7 +55,7 @@ h4 {
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
-}
+}*/
 
 .thumbnailx{
     font-size: 20px;
@@ -66,7 +68,8 @@ h4 {
     background-position:left top;
     background-size:cover;
     color: #fff;
-    padding:80px 25px;
+    padding-top:30px;
+    padding-bottom:8px;
     font-family: Montserrat, sans-serif;
 }
 
@@ -194,6 +197,17 @@ figure:hover img {
     font-size: 20px;
     margin-bottom: 20px;
     color: #6f8bcf;
+}
+
+.tbx{
+    background-image: url(../pictures/tbxblack.png);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tbx ul{
+    list-style-type:disc;
 }
 
 footer{
