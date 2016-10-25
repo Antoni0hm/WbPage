@@ -10,21 +10,21 @@
     margin-top:0px;
     padding-top: 5px;
 }
-
-.circulo{
-    height: 50%;
-    width: 50%;
-}
-
+/***************************************/
 #ono{
-    /*height: 300px;
-    width: 500px;*/
-    max-width: 100%;
-    max-height: 50%;
-    height:30%;
-    width: 70%;   
+    width: 70%;
+    height: 70%;
 }
 
+#fach{
+    width:70%;
+    height:70%;
+}
+
+#about{
+    padding-top:0px;
+}
+/***************************************/
 .loc{
     height: 300px;
     width: 100%;
@@ -81,12 +81,6 @@ h4 {
 .arclogo{
     max-height: 200px;
     max-width: 100%;
-}
-
-#about{
-    margin-top:0px;
-    position:relative;
-    padding-top:0px;
 }
 
 .bg-grey {
@@ -286,12 +280,5 @@ footer a{
 @media screen and (max-width: 480px) {
     .logo {
         font-size: 150px;
-    }
-}
-
-@media (max-width: 600px){
-    .circulo{
-        max-width: 100%;
-        max-height: 50%;      
     }
 }

@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // Add smooth scrolling to all links in navbar + footer link
-    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    $(".navbar a.jq, footer a[href='#myPage']").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
             // Prevent default anchor click behavior
@@ -16,17 +16,17 @@ $(document).ready(function(){
             }, 900, function(){
 
                 // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
+                //window.location.hash = hash; //siempre no :P
             });
         } // End if
     });
 
     $(window).scroll(function() {
         $(".slideanim").each(function(){
-            var pos = $(this).offset().top;
+            var pos = $(this).offset().top-50;
 
             var winTop = $(window).scrollTop();
-            if (pos < winTop + 600) {
+            if (pos < winTop + 550) {
                 $(this).addClass("slide");
             }
         });
